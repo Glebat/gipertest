@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu button {
+  padding: 10px 20px;
+  cursor: pointer;
+}

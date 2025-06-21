@@ -1,0 +1,65 @@
+.container-todo {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add {
+  padding: 5px 15px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.text {
+  flex: 1;
+  margin-right: 10px;
+  word-break: break-word;
+}
+
+.done .text {
+  text-decoration: line-through;
+}
+
+.delete {
+  padding: 3px 10px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  white-space: nowrap;
+}
